@@ -42,10 +42,10 @@ var minuteRotation = function() {
   el.style.transform = "rotate(" + minute_degrees + "deg)";
 }
 
-var hourRotation = function(hdegrees) {
+var hourRotation = function() {
   hour_degress += 30;
   if (hour_degrees === 360) {
-    hour_degrees = 0;s
+    hour_degrees = 0;
   }
   var el = document.getElementById("hour");
   el.style.transform = "rotate(" + hour_degress + "deg)";
